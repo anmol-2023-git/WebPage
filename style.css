@@ -1,0 +1,129 @@
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+    background: #f9f9f9;
+    color: #222;
+}
+
+.header {
+    background: #393939;
+    color: #fff;
+    padding: 28px 0 0 0;
+}
+
+.header-container {
+    width: 100%;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+}
+
+.site-title {
+    margin: 0 0 18px 0;
+    font-size: 2.2em;
+    font-weight: bold;
+    letter-spacing: 2px;
+}
+
+.links {
+    display: flex;
+    gap: 32px;
+    justify-content: center;
+    margin-bottom: 18px;
+}
+
+.links a {
+    color: #fff;
+    text-decoration: none;
+    font-size: 1.1em;
+    font-weight: bold;
+}
+
+.links a:hover {
+    text-decoration: underline;
+}
+
+.main {
+    width: 100%;
+}
+
+.main-left {
+    width: 90%;
+    max-width: 700px;
+    margin-left: 30px;
+    margin-top: 24px;
+}
+
+.section-title {
+    color: #3476c8;
+    font-size: 1.4em;
+    font-weight: bold;
+    margin-bottom: 8px;
+    margin-top: 0;
+}
+
+.box {
+    background: #fff;
+    border: 1.5px solid #eaeaea;
+    border-radius: 4px;
+    padding: 18px 18px 12px 18px;
+    margin-bottom: 16px;
+}
+
+.tag {
+    display: inline-block;
+    background: #eaeaea;
+    color: #444;
+    border-radius: 8px;
+    padding: 3px 10px;
+    font-size: 0.9em;
+    margin-right: 4px;
+    margin-bottom: 5px;
+}
+
+form input, form textarea {
+    width: 98%;
+    padding: 7px 8px;
+    margin-bottom: 10px;
+    border: 1px solid #ccc;
+    font-size: 1em;
+    border-radius: 4px;
+    background: #fafafa;
+    box-sizing: border-box;
+}
+
+form textarea {
+    resize: vertical;
+}
+
+form button {
+    background: #3476c8;
+    color: #fff;
+    border: none;
+    border-radius: 4px;
+    padding: 7px 18px;
+    font-size: 1em;
+    cursor: pointer;
+}
+
+form button:hover {
+    background: #255ea8;
+}
+
+.footer {
+    background: #333;
+    color: #eee;
+    text-align: center;
+    padding: 16px 0 14px 0;
+    margin-top: 40px;
+    font-size: 0.98em;
+}
+
+.footer-container {
+    width: 90%;
+    max-width: 900px;
+    margin: 0 auto;
+    text-align: center;
+}
